@@ -13,7 +13,7 @@ Using Gnuplot Jupyter Notebook style
 
 Singapore's Government https://www.moh.gov.sg/covid-19 unfortunately does not
 publish data in a machine readable form, despite [multiple data
-requests](https://github.com/datagovsg/datagovsg-datasets/issues/778).
+requests](https://github.com/datagovsg/datagovsg-datasets/issues?q=is%3Aissue+is%3Aopen+covid-19).
 
 So we need to rely upon [data compiled by Center for Systems Science and
 Engineering (CSSE) at Johns Hopkins
