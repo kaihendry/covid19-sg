@@ -1,3 +1,8 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kaihendry/covid19-sg/master)
+
+Idea behind this project is compare several opensource tools / workflows to
+analyse the same data.
+
 # gnuplot.ipynb
 
 Using Gnuplot Jupyter Notebook style
@@ -16,6 +21,10 @@ Using Gnuplot Jupyter Notebook style
 <a href="https://covid-19.datasettes.com/covid?sql=select+rowid%2C+day%2C+country_or_region%2C+province_or_state%2C+admin2%2C+fips%2C+confirmed%2C+deaths%2C+recovered%2C+active%2C+latitude%2C+longitude%2C+last_update%2C+combined_key+from+johns_hopkins_csse_daily_reports+where+%22country_or_region%22+%3D+%3Ap0+order+by+day+desc+limit+101&p0=Singapore#g.mark=line&g.x_column=day&g.x_type=temporal&g.y_column=active&g.y_type=quantitative">
 <img alt="Active cases in SIngapore from June to August 2020" src=https://s.natalian.org/2020-08-22/visualization.png>
 </a>
+
+Notice the [datasette import
+code](https://github.com/simonw/covid-19-datasette/blob/4ce3738229048f235571f93310c686c00cbf7c6b/build_database.py#L19)
+caters for the varying CSV style of **JHU CSSE COVID-19 Data**.
 
 # Data source
 
